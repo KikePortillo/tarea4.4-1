@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #61f7f7;
+  background-color: #61f7f7;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+p {
+  border: 1px solid #61f7f7;
+  background-color: #95f0f0;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: rgb(51, 42, 42);
+}
+.cabeza{
+   background-color: rgb(223, 213, 213);
+   text-align: center;
+   color: rgb(145, 127, 80);
+}
+
+.final{
+   background-color: rgb(57, 61, 122);
+   text-align: center;
+   color: rgb(145, 127, 80);
+}
+.row {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    float: left;
+    border: 1px solid rgb(126, 198, 201);
+    background-image: url(https://webstockreview.net/images/bouquet-clipart-decoration-14.jpg);
+    padding: 3px;
+  }
+ 
+  .col-lg-3 {
+    width: 25%;
+  }
+  .img img{
+  width: 45%;
+  margin: auto;
+ display: block;
+}
+.img h1{
+    width: 20%;
+    margin: auto;
+   display: block;
+}
+}
+@media (min-width: 997px) and (max-width: 1300px) {
+  .col6 {
+    float: inline-end;
+    border: 1px solid rgb(3, 82, 3);
+    border-radius: 0px;
+  }
+  .col6 {
+    width: 50%;
+    background-image: url(https://media.istockphoto.com/photos/floral-pattern-with-yellow-flowers-and-gray-leaves-on-white-with-picture-id1146972112);
+  
+  }
+ 
+  .col8 {
+    width: 46%;
+  }
+ 
+  body {
+    background-color: pink;
+  }
+  .img img{
+  width: 50%;
+  height: 50%;
+}
+.img h1{
+    width: 40%;
+  height: 40%;
+}
+}
+
+ 
+@media (min-width: 700px) and (max-width: 995px) {
+
+  .col8 {
+    float: unset;
+    background-color: 0px;
+    border: 1px solid rgb(247, 231, 142);
+    border-radius: 1px;
+  }
+  
+  .col8 {
+    width: 50%;
+  }
+  body{
+    background-image: url(https://www.gaulan.es/355497/papel-pintado-as-creation-fleuri-pastel-93770-1.jpg);
+  }
+}
+
+
+</style>
+</head>
+<body>
+<h1>FLORES</h1>
+<div class="cabeza">
+<h2 ><i>ELIGE EL ARREGLO QUE MAS TE GUSTE</i></h2>
+<h3><i>Estas flores son como los placeres del mundo<i></h3>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 col6"><p>Las flores tienen en su semblante
+     una expresión tanto como los hombres o los animales. Algunas parecen 
+     sonreír, algunas tienen una triste expresión, algunas son pensativas y temerosas, 
+     otras son sencillas, honestas y rectas, como el girasol de cara ancha y la malvarrosa</p></div>
+  <div class="col-lg-3 col8"><p>El esplendor de la rosa y la blancura del lirio no roban 
+    a la pequeña violeta de su esencia ni a la margarita de su simple encanto. Si cada diminuta flor quisiera
+     ser una rosa, la primavera perdería su encanto</p></div>
+  <div class="col-lg-3 col8"><p>Arreglar un cuenco de flores en la mañana puede dar una sensación de 
+    tranquilidad en un día concurrido de gente, como escribir un poema o decir una oración.La gracia de 
+    una cara tiene el esplendor delicado de la nieve de una flor</p></div>
+  <div class="col-lg-3 col6"><p>La campana para de sonar.
+   El eco de las flores perfuma la noche. El canto de los pájaros
+    transmite sin palabras las leyes del universo.Los colores de las flores, 
+    sin escritos enseñan la verdad del mundo</p></div>
+</div>
+<div class="img">
+   <img src="https://img2.freepng.es/20191027/oah/transparent-floral-design-5db6447cc884b1.5097812815722261728213.jpg" />
+    <h1>OPCION con canasta</h1>
+    <img src="https://www.pikpng.com/pngl/m/372-3720232_ramos-de-flor-png-arte-ramos-de-flores.png" />
+    <h1>OPCION ramo suelto</h1>
+    <img src="https://w7.pngwing.com/pngs/92/274/png-transparent-tulips-in-a-vase-flower-floristry-tulip-blue-ink-flower-arranging.png" />
+    <h1>OPCION jarra vidrio</h1>
+    <img src="https://w7.pngwing.com/pngs/749/199/png-transparent-flower-yellow-graphy-tulip-picking-tulips-love-purple-flower-arranging.png" />
+    <h1>OPCION canastilla floja</h1>
+</div>
+<div class="cabeza">
+    <h3 ><i>CONTACTE CON NOSOTROS</i></h3>
+    <h3><i>Preparamos los mejores arreglos<i></h3>
+    </div>
+<div class="final">
+     <h2> <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Facebook_icon-icons.com_66805.png"  width="50"
+        height="50"/></h2>
+     <h3><img src="https://image.flaticon.com/icons/png/512/174/174855.png"  width="50"
+        height="50"/></h3>
+    </div>
+
+  
+</body>
+</html> 
