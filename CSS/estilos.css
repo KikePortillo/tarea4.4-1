@@ -4,8 +4,8 @@
 .img img {
   width: 100%;
   height: 100%;
-  border: 1px solid #61f7f7;
-  background-color: #61f7f7;
+  border: 1px solid rgb(211, 29, 29);
+  background-color: #fafafa;
   margin-right: auto;
   margin-left: auto;
 }
@@ -14,7 +14,7 @@ h1 {
   text-align: center;
 }
 p {
-  background-color: #95f0f0;
+  background-color: rgb(146, 207, 235);
   width: 90%;
   height: 150px;
   margin-right: auto;
@@ -23,26 +23,27 @@ p {
   color: rgb(51, 42, 42);
 }
 #barra {
-  background-color: rgb(223, 213, 213);
+  background-color: white;
   text-align: center;
-  color: rgb(145, 127, 80);
+  color: black;
 }
 
 .final {
-  background-color: rgb(57, 61, 122);
+  background-color:white;
 }
 @media (min-width: 1401px) {
   .col-lg-3 {
     float: left;
     width: 25%;
-    background-color: rgb(206, 199, 201);
+    background-color: whitesmoke;
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
   .col-lg-3 {
     float: left;
-    border: 1px solid rgb(126, 198, 201);
-    background-image: url(https://webstockreview.net/images/bouquet-clipart-decoration-14.jpg);
+    border: 1px solid whitesmoke;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-pantalla-placa-circuito-neon_23-2148333271.jpg);
+    
     padding: 3px;
     width: 45%;
   }
@@ -64,21 +65,21 @@ p {
 @media (min-width: 996px) and (max-width: 1200px) {
   .col6 {
     float: inline-end;
-    border: 1px solid rgb(3, 82, 3);
+    border: 1px solid whitesmoke;
     border-radius: 0px;
-    width: 60%;
-    display: block;
+    width:60%;
+    display:block;
     margin: auto;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-wedding-fair-romantic-pink-flower-small-fresh-wedding-background-image_205733.jpg);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-blue-plant-background-design-backgroundplant-backgroundhand-painted-image_70261.jpg);
   }
   .col8 {
     width: 60%;
     display: block;
     margin: auto;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-wedding-fair-romantic-pink-flower-small-fresh-wedding-background-image_205733.jpg);
+    background-image: url(https://thumbs.dreamstime.com/z/fondo-claro-de-cielo-azul-nubes-con-el-fondo-96919569.jpg);
   }
   body {
-    background-color: rgb(250, 207, 214);
+    background-color: rgb(255, 254, 248);
   }
 
   .img img {
@@ -94,10 +95,10 @@ p {
 }
 @media (min-width: 700px) and (max-width: 995px) {
   .col8 {
-    border: 1px solid rgb(247, 231, 142);
+    border: 1px solid rgb(255, 254, 248);
     width: 50%;
   }
   body {
-    background-image: url(https://www.gaulan.es/355497/papel-pintado-as-creation-fleuri-pastel-93770-1.jpg);
+    background-image: url(https://images.vexels.com/media/users/3/100412/preview2/76fca09722d70fc84adfa177d0df4ddf-bokeh-abstracto-fondo-claro.jpg);
   }
 }
